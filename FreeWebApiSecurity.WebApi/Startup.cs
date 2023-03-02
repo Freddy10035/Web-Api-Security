@@ -105,6 +105,7 @@ public class Startup {
                 // options.BusinessObject<YourBusinessObject>();
 
                 options.BusinessObject<Post>();
+       
             })
             .AddXpoServices();
         services
